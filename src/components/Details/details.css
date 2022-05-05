@@ -1,0 +1,27 @@
+.details_container{
+    padding: 5rem;
+}
+
+.details_body{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details img{
+    width: 20%;
+}
+
+@media screen and (max-width: 600px) {
+    .details_container{
+        padding: 1rem;
+        text-align: justify;
+    }
+    .details img{
+        width: 100%;
+    }
+    .details_body{
+        flex-direction: column;
+    }
+}
